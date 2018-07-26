@@ -1,0 +1,1 @@
+shaall.py computes the SHA256 sum of portions of files or disks
