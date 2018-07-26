@@ -13,7 +13,7 @@ import subprocess
 import os
 import math
 
-MAX_BLOCK_SIZE = os.getenv('MAX_BLOCK_SIZE', 2 ** 20)
+MAX_BLOCK_SIZE = int(os.getenv('MAX_BLOCK_SIZE', 2 ** 20))
 
 def isPowerOf2(x):
     """
